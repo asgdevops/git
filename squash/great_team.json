@@ -1,0 +1,14 @@
+{
+  "name": "great_team",
+  "description": "This is an example of a great team",
+  "active":true,
+  "elements":4,
+  "members": ["Joyce", "Jose", "Aldo", "Antonio"],
+  "action_items": [
+    {
+      "action":"grettings",  
+      "who":"Joyce", 
+      "what": "Says Hi! to everyone in the room"
+    }
+  ]
+}
