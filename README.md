@@ -1,4 +1,4 @@
-# :book: git-on 
+# :book: git
 ## Notes about Git and GitHub
 Git is an open-source Version Control System based on snapshots cheking the changes integrity by using SHA-1 hash algorithms.
 
