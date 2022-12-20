@@ -15,7 +15,7 @@ Git is an open-source Version Control System based on snapshots. It handles any 
    - [Create a repository in **GitHub** (_remote repository_)](06_creating_repositories.md#61-creating-a-remote-repo)   
    - [Create a repository in **Git** (_local repository_)](06_creating_repositories.md#62-creating-a-local-repo)
 7. [Clone a repository](04_clone_a_repository.md)
-8. [Create a personal access token](05_creating_a_personal_access_token.md)
+8. [First document version](08_first_document_version.md)
 
 <br/>
 
