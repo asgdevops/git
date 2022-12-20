@@ -1,0 +1,15 @@
+{
+  "rank": 0,
+  "peak_name": ["peak name 1", "peak name 2", "peak name n..."],
+  "height": { 
+    "h_number": 0, 
+    "h_unit": "" 
+  },
+  "prominence": {
+    "p_number": 0, 
+    "p_unit": "" 
+  },
+  "range": "mountain range",
+  "countries": ["country name 1", "country name 2", "country name n..."],
+  "highest_peak": true
+}

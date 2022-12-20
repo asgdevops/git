@@ -49,7 +49,19 @@ The purpose of the laboratory consists of creating a Docker container to execute
     docker exec -it debian bash
     ```
 
-5. Logout, stop and destroy the container.
+5. Install git by apt package manager
+
+    ```bash
+    sudo apt-get install -y git
+    ```
+
+6. Verify git is installed
+
+    ```bash
+    git --version
+    ```
+
+6. Logout, stop and destroy the container.
 
     - Logout the container.
 
@@ -117,7 +129,19 @@ The purpose of the laboratory consists of creating a Docker container to execute
     docker exec -it centos bash
     ```
 
-5. Logout, stop and destroy the container.
+5. Install git by apt package manager
+
+    ```bash
+    sudo yum install -y git
+    ```
+
+6. Verify git is installed
+
+    ```bash
+    git --version
+    ```
+
+7. Logout, stop and destroy the container.
 
     - Logout the container.
 
