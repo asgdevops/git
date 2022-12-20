@@ -35,7 +35,7 @@
 
 - [**Installing Git** on Debian 11 (bulsseye)](labs/lab_01_installing_git_on_debian.md)
 
-- [**Installing Git** on Centos 7](labs/lab_02_installing_git_on_centos/README.md)
+- [**Installing Git** on Centos 7](labs/lab_02_installing_git_on_centos.md)
 
 
 <br />
