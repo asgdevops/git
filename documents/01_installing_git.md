@@ -49,4 +49,4 @@ Install Git on any of the Linux distributions below:
 
 <br />
 
-:arrow_backward: [back to index](../README)
+:arrow_backward: [back to index](../README.md)

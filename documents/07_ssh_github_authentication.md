@@ -1,4 +1,4 @@
-# 4. SSH GitHub authentication
+# :book: 7. SSH GitHub authentication
 
 # Steps
 1. Open a local terminal and run the command below.
@@ -9,7 +9,7 @@
 
 2. Enter a **passphrase** (_password_) and confirm that.
 
-    ![ssh](images/github_ssh_01.png)
+    ![ssh](../images/github_ssh_01.png)
 
 3. Verify a key pair files were created. 
    
@@ -21,21 +21,21 @@
     ls -l ~/.ssh/ed25519*
     ```
 
-    ![ssh](images/github_ssh_02.png)
+    ![ssh](../images/github_ssh_02.png)
 
 4. Go to [GitHub](https://github.com/ ) 
 
 5. Open the main menu and select **settings**.
 
-    ![ssh](images/github_ssh_03.png)
+    ![ssh](../images/github_ssh_03.png)
 
 5. Select the **SSH and GPG keys** option.
 
-    ![ssh](images/github_ssh_04.png)
+    ![ssh](../images/github_ssh_04.png)
 
 6. Click the **New SSH Key** button.
 
-    ![ssh](images/github_ssh_03a.png)
+    ![ssh](../images/github_ssh_03a.png)
 
 7. Back to your terminal, take the public key from `your terminal`
 
@@ -43,15 +43,15 @@
     cat ~/.ssh/ed25519.pub
     ```
 
-    ![ssh](images/github_ssh_04a.png)
+    ![ssh](../images/github_ssh_04a.png)
 
 8. Enter the **Title**, **Key type** and **Key**. (_paste the public key_)
 
-    ![ssh](images/github_ssh_05.png)
+    ![ssh](../images/github_ssh_05.png)
 
 9. Verify the SSH key was added to GitHub.
 
-    ![ssh](images/github_ssh_06.png)
+    ![ssh](../images/github_ssh_06.png)
 
 10. Switch back to your terminal and test the SSH Key connection to GitHub.
 
@@ -66,7 +66,7 @@
 
     - Type the pasphrase used when the SSH key was created.
 
-        ![ssh](images/github_ssh_07.png)
+        ![ssh](../images/github_ssh_07.png)
 
     - Now you are set.
 
@@ -77,4 +77,4 @@
 
 <br />
 
-:arrow_backward: [back](README.md#00-toc)
+:arrow_backward: [back to index](../README.md)

@@ -105,7 +105,7 @@ Remote repositories require creating an account in [GitHub](https://github.com/)
  
 <br />
 
-:arrow_backward: [back to index](../README)
+:arrow_backward: [back to index](../README.md)
 
 [^1]: As a good practice, add clear and specific comments anytime changes happen. Consider other people who could contribute to the work you have done already and want to understand, in detail, what kind of changes they are managing.
 

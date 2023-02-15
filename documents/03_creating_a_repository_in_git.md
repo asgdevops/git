@@ -21,6 +21,19 @@ Git offers the possibility to distribute the repositories across the Internet. A
 
 Remote repositories require creating an account in [GitHub](https://github.com/) and will be covered later.
 
+# :bookmark_tabs: Table of contents
+- [:book: 3. Creating a Repository in Git](#book-3-creating-a-repository-in-git)
+  - [Repositoy creation options](#repositoy-creation-options)
+  - [Local repository](#local-repository)
+  - [Remote repository](#remote-repository)
+- [:bookmark\_tabs: Table of contents](#bookmark_tabs-table-of-contents)
+- [Creating a **local** repository in Git](#creating-a-local-repository-in-git)
+- [Creating a Remote repository in **GitHub**](#creating-a-remote-repository-in-github)
+- [Cloning a repository](#cloning-a-repository)
+    - [Steps](#steps)
+- [**Synchronizing** both **local** and **remote** repositories](#synchronizing-both-local-and-remote-repositories)
+- [:alembic: Practice labs](#alembic-practice-labs)
+- [:books: References](#books-references)
 
 # Creating a **local** repository in Git 
 
@@ -105,6 +118,48 @@ Remote repositories require creating an account in [GitHub](https://github.com/)
     ![github](../images/github_repo_03.png)
 
 
+# Cloning a repository
+
+Git cloning allows you to get access to distributed respositories set up in [GirHub](https://github.com/).
+
+### Steps
+1. Go to the [GitHub]([GirHub](https://github.com/)) repository you want to clone. (_in this example **cd_project** repository_)
+
+
+2. Take the git repository name from the SSH code `git@github.com:asgdevops/clone-me.git` tab.
+
+    ![clone](../images/github_clone_01.png)
+
+3. In your local machine open a new ssh terminal and go to the directory where you would like to drop the cloned repository.
+
+
+    ```bash
+    cd $HOME/portfolio
+    ```
+
+4. Issue the `git clone` repository command.
+
+    ```bash
+    git clone git@github.com:asgdevops/cd_project.git
+    ```
+
+5. Get in the cloned directory.
+
+    ```bash
+    cd cd_project
+    ```
+
+    ![clone](../images/github_clone_02.png)
+
+6. Verify the cloned directory is configured properly.
+
+    ```bash
+    git remote -v
+    ```
+
+    ![clone](../images/github_clone_03.png)
+
+
 # **Synchronizing** both **local** and **remote** repositories
 
 1. Open a terminal a go to your local repository
@@ -114,6 +169,7 @@ Remote repositories require creating an account in [GitHub](https://github.com/)
     ```
 
 2. On GitHub, copy the HTTPS or SSH command line and paste it onto your local terminal.
+
     ```
     git remote add origin git@github.com:asgdevops/markdown.git
     ```
@@ -149,18 +205,20 @@ Remote repositories require creating an account in [GitHub](https://github.com/)
 
     ```
     git fetch origin main
-    git push origin main
+    git pull origin main
     git rebase -i main # save when prompted, [ESC + x]
     ```
 
 <br />
 
-# :alembic: Practice lab
+# :alembic: Practice labs
 
 The purpose of the practice is to start building a markdown user guide using Git features.
 
 - [Create a Git (local) repository](../labs/lab_03a_creating_a_git_repository.md)
 - [Create a GitHub (remote) repository](../labs/lab_03b_creating_a_github_repository.md)
+- [Synchronize Git and GitHub repositories](../labs/lab_03c_synchronize_repositories.md)
+- [Clone a repository](../labs/lab_03d_clone_a_repository.md)
 
 
 # :books: References
@@ -170,7 +228,7 @@ The purpose of the practice is to start building a markdown user guide using Git
  
 <br />
 
-:arrow_backward: [back to index](../README)
+:arrow_backward: [back to index](../README.md)
 
 [^1]: As a good practice, add clear and specific comments anytime changes happen. Consider other people who could contribute to the work you have done already and want to understand, in detail, what kind of changes they are managing.
 

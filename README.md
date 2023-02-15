@@ -15,14 +15,11 @@ This documentation shows working with the Git command line on any Linux distribu
 2. [Configuring Git](documents/02_configuring_git.md)
 3. [Creating a repository in Git](documents/03_creating_a_repository_in_git.md)
 4. [Recording changes in Git](documents/04_recording_changes.md)
-5. [Sign up for a new GitHub account](03_signup_for_a_new_github_account.md)
-6. [SSH GitHub Authentication](04_ssh_github_authentication.md)
-7. [Creating a Personal Access Token](05_creating_a_personal_access_token.md)
-8. [Creating repositories](06_creating_repositories.md#03-creating-repositories)
-   - [Create a repository in **GitHub** (_remote repository_)](06_creating_repositories.md#61-creating-a-remote-repo)   
-   - [Create a repository in **Git** (_local repository_)](06_creating_repositories.md#62-creating-a-local-repo)
-9. [Clone a repository](07_clone_a_repository.md)
-10. [First document version](08_first_document_version.md)
+5. [File operations in Git](documents/05_file_operations_in_git.md)
+6. [Sign up for a new GitHub account](documents/06_signup_for_a_new_github_account.md)
+7. [SSH GitHub Authentication](documents/07_ssh_github_authentication.md)
+8. [Creating a Personal Access Token](documents/08_creating_a_personal_access_token.md)
+11. [First document version](08_first_document_version.md)
 
 <br/>
 

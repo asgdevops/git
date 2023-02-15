@@ -1,9 +1,7 @@
-# Cloning a repository
+# :alembic: 3c. Cloning a repository
 
 ## Goal 
-- Create a Git repository in your local machine.
-- Create a new file and add it to the Git database.
-- Verify the file version in Git.
+- Clone an existing repository from GitHub onto your local machine.
 
 #  Steps
 

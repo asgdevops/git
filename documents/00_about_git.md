@@ -94,4 +94,5 @@ The process of adding a file or group of files to the Git database consists of t
 
 <br />
 
-:arrow_backward: [back to index](../README)
+:arrow_backward: [back to index](../README.md)
+

@@ -88,4 +88,4 @@ Git has three scope configuration levels:
  
 <br />
 
-:arrow_backward: [back to index](../README)
+:arrow_backward: [back to index](../README.md)
